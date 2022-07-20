@@ -2,6 +2,21 @@ body {
     font-family: sans-serif;
     background-color: black;
     color: seashell;
+    font-size: 24px;
+    text-align: center;
+    background-image: url(img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: top 96px left 32px;
     
+}
 
+h2,
+h3 {
+    font-size: 32px;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
