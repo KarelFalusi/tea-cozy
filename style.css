@@ -2,21 +2,63 @@ body {
     font-family: sans-serif;
     background-color: black;
     color: seashell;
-    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1.333;
     text-align: center;
-    background-image: url(img-mission-background.jpg);
-    background-repeat: no-repeat;
-    background-position: top 96px left 32px;
-    
+}
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
 h2,
 h3 {
-    font-size: 32px;
-
+    font-size: 2rem;
+    line-height: 1.5;
 }
 
 img {
     max-width: 100%;
     height: auto;
+    display: block;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.777;
+}
+
+nav {
+    line-height: 2;
+    font-weight: 400;
+}
+
+header {
+    padding: 1.25rem 2rem;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.25rem;
+    max-width: 1264px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    display: flex;
+    column-gap: 1.25rem;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+a {
+    color: seashell;
+}
+
+figure img {
+    width: 300px;
+    height: 200px;
 }
