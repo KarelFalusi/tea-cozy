@@ -5,6 +5,7 @@ body {
     font-size: 1.5rem;
     line-height: 1.333;
     text-align: center;
+
 }
 
 * {
@@ -61,4 +62,22 @@ a {
 figure img {
     width: 300px;
     height: 200px;
+}
+
+.mission {
+    display: flex;
+    background-image: url("img-mission-background.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.goals {
+    background-color: black;
+    text-align: center;
+    max-width: 1200px;
 }
