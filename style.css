@@ -5,6 +5,7 @@ body {
     font-size: 1.5rem;
     line-height: 1.333;
     text-align: center;
+    font-weight: 700;
 
 }
 
@@ -25,7 +26,8 @@ img {
     display: block;
 }
 
-p {
+.locations p,
+.contact p {
     font-size: 1.125rem;
     line-height: 1.777;
 }
@@ -62,22 +64,68 @@ a {
 figure img {
     width: 300px;
     height: 200px;
+    padding-bottom: 1rem;
 }
 
 .mission {
     display: flex;
     background-image: url("img-mission-background.jpg");
     background-repeat: no-repeat;
-    height: 700px;
-    width: 1200px;
+    background-position: 50% 50%;
+    min-height: 700px;
+    max-width: 1200px;
     justify-content: center;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2rem;
 }
 
-.goals {
+.mission-text {
     background-color: black;
     text-align: center;
+    width: 100%;
+    padding: 1rem 2rem;
+
+}
+
+.tea-text {
+    padding: 1rem 1rem;
+}
+
+figcaption {
+    padding: 1rem 1rem;
+}
+
+.featured-container {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure {
+    flex-basis: 300px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.locations {
+    background-image: url("img-locations-background.jpg");
+    background-repeat: no-repeat;
     max-width: 1200px;
+    min-height: 576px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+
 }
