@@ -16,10 +16,15 @@ body {
     padding: 0;
 }
 
-h2,
-h3 {
+h2 {
     font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
     line-height: 1.5;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 img {
@@ -138,12 +143,6 @@ figure {
 
 .locations h2 {
     flex-basis: 100%;
-}
-
-.locations h3 {
-    font-size: 24px;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
 }
 
 footer {
