@@ -10,8 +10,8 @@ body {
     margin-right: auto;
 }
 
-.max-width {
-    max-width: 1200px;
+.container {
+    max-width: 75rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -19,6 +19,7 @@ body {
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 h2 {
@@ -52,16 +53,16 @@ nav {
 }
 
 header {
-    max-width: 1200px;
+    max-width: 79rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    gap: 1.25rem;
+    justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
     border-bottom: 1px solid seashell;
     padding: 1.25rem 2rem;
-    gap: 1.25rem;
-    justify-content: space-between;
     background-color: #696969;
 }
 
@@ -77,19 +78,17 @@ a {
 }
 
 figure img {
-    width: 300px;
-    height: 200px;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .mission {
     background-image: url("img-mission-background.jpg");
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    min-height: 700px;
+    background-position: 50%;
+    min-height: 43.75rem;
+    margin-bottom: 2rem;
     display: flex;
     align-items: center;
-    margin-bottom: 2rem;
 }
 
 .mission-text {
@@ -100,28 +99,24 @@ figure img {
 
 }
 
-.featured-tea-text {
-    padding: 1rem 1rem;
-}
-
-figcaption {
-    padding: 1rem 1rem;
+.featured-tea-text, figcaption {
+    padding: 1rem;
 }
 
 .featured-container {
-    max-width: 1000px;
+    max-width: 75rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 3rem;
     margin-top: 1.5rem;
+    margin-bottom: 2rem;
     margin-left: auto;
     margin-right: auto;
-    gap: 3rem;
-    margin-bottom: 2rem;
 }
 
 figure {
-    flex-basis: 300px;
+    flex-basis: 18.75rem;
     flex-shrink: 0;
     flex-grow: 0;
 }
@@ -130,8 +125,7 @@ figure {
     background-image: url("img-locations-background.jpg");
     background-repeat: no-repeat;
     background-position: center 0;
-    min-height: 576px;
-    margin-bottom: 2rem;
+    min-height: 36rem;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -139,14 +133,13 @@ figure {
     row-gap: 1rem;
     column-gap: 4rem;
     padding: 1rem;
+    margin-bottom: 2rem;
 }
 
 .address {
     background-color: black;
-    flex-basis: 300px;
+    flex-basis: 18.75rem;
     padding: 1rem;
-    box-sizing: border-box;
-
 }
 
 .locations h2 {
@@ -154,7 +147,7 @@ figure {
 }
 
 footer {
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: left;
     margin-bottom: 1rem;
 }
